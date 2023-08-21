@@ -11,7 +11,7 @@ function signup(e){
         alert("Vui lòng nhập lại")
     } else if(username == data.username && password == data.password){
         alert("Đăng nhập thành công")
-        window.location.href="/fb.html"
+        window.location.href="fb.html"
     }else{
         alert("Đăng nhập thất bại")
     }
