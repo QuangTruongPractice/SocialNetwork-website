@@ -1,0 +1,367 @@
+.header {
+    height: 55px;
+    border: none;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+
+.left-header {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.logo-fb {
+    height: 42px;
+    margin: 0 8px 0 14px;
+    cursor: pointer;
+}
+.bar {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-bar {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 25px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 20px;
+    height: 40px;
+    font-size: 15px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.find-bar:focus {
+    margin-left: -30px;
+    padding-right: 38px;
+    padding-left: 17px;
+}
+.search-icon {
+    height: 20px;
+}
+.search-icon.clicked{
+    display: none;
+}
+.center-header {
+    display: flex;
+    width: 700px;
+    min-width: 500px;
+}
+.center-link, .center-link1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    flex: 1;
+    border-radius: 6px;
+}
+.center-link:hover, 
+.center-link1:hover {
+    background-color: rgb(167, 241, 149);
+}
+.center-link .tooltip,
+.center-link1 .tooltip,
+.right-header .tooltip {
+    position: absolute;
+    background-color: rgb(28, 66, 10);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    bottom: -28px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.center-link:hover .tooltip,
+.right-link:hover .tooltip,
+.center-link1:hover .tooltip {
+    opacity: 1;
+}
+.center-link2 {
+    margin-top: -200px;
+    flex: 0;
+    width: 0;
+    cursor: pointer;
+}
+.icon {
+    height: 32px;
+}
+.icon-1 {
+    height: 26px;
+}
+
+
+.right-header {
+    display: flex;
+    width: 214px;
+    flex-shrink: 0;
+}
+.right-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 50px;
+}
+.box1 {
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon1 {
+    height: 20px;
+    border-radius: 16px;
+    align-items: center;
+}
+.photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.taikhoan{
+    background-color: white;
+    display: none;
+    width: 220px;
+    height: 400x;
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    border-radius: 10px;
+    border: 0.5px solid green;
+}
+.thongtin{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.thongtin .photo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 40px;
+}
+.thongtin .ten{
+    text-align: center;
+}
+.caidat{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.caidat img{
+    width: 30px;
+    height: 30px;
+}
+.trogiup{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.trogiup img{
+    width: 30px;
+    height: 30px;
+}
+.dangxuat{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dangxuat img{
+    width: 30px;
+    height: 30px;
+}
+a.dangxuat{
+    text-decoration: none;
+    font-weight: normal;
+    color: inherit;
+}
+
+.trogiup:hover, .caidat:hover, .dangxuat:hover{
+    background-color: rgb(199, 249, 199);
+}
+
+.thongbao{
+    background-color: white;
+    display: none;
+    width: 300px;
+    height: 400x;
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    border-radius: 10px;
+    border: 0.5px solid green;
+    text-align: center;
+}
+.tinnhan{
+    background-color: white;
+    display: none;
+    width: 300px;
+    height: 400x;
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    border-radius: 10px;
+    border: 0.5px solid green;
+    text-align: center;
+}
+.posts{
+    width: 100%;
+    height: 95%;
+}
+.hamburger-show{
+    position: absolute;
+    left: 15%;
+    top: -15px;
+    z-index: 9999;
+    border-radius: 5px;
+    background-color:rgb(171 239 171);
+    height: 237px;
+    width: 30%;
+    overflow: hidden;
+    display: none;
+}
+.hamburger-show img{
+    width: 40px;
+    height: 40px;
+}
+.icon_show{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration-line: none;
+    color: black;
+}
+.icon_show:hover{
+    background-color: lightgreen;
+}
+ @media(max-width: 1280px)
+ {
+    .center-header {
+        display: flex;
+        width: 530px;
+        min-width: 0px;
+    }
+    .bar{
+        height: 40px;
+        width: 40px;
+        padding-left: 0;
+    }
+    .find-bar{
+        display: none;
+    }
+ }
+ 
+ @media (max-width:700px)
+{
+    .center-header {
+        display: flex;
+        width: 100%;
+        border: none;
+        border-color: rgb(226, 226, 226);
+        position: fixed;
+        height: 55px;
+        top: 50px;
+        padding: 5px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    
+    .center-link2 {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        flex: 0;
+        width: 80px;
+        transition: background-color 0.2s;
+        border-radius: 6px;
+    }
+    .center-link2:hover {
+        background-color: rgb(218, 218, 218);
+    }
+    .center-link2 .tooltip {
+        position: absolute;
+        background-color: rgb(62, 59, 59);
+        color: white;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 12px;
+        bottom: -28px;
+        opacity: 0;
+        transition: opacity 0.2s;
+        cursor: pointer;
+    }
+    .center-link2:hover .tooltip {
+        opacity: 1;
+    }
+}
+@media (max-width: 400px)
+{
+    .right-link {
+        height: 100%;
+        width: 42px;
+    }
+    .box1 {
+        width: 33px;
+        height: 33px;
+    }
+    .icon1 {
+        height: 18px;
+    }
+    .photo {
+        height: 33px;
+        width: 33px;
+    }
+}

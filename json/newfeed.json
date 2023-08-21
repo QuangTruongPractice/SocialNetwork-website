@@ -1,0 +1,37 @@
+[{
+    "id": "likebtn1",
+    "name": "Lê Quang Vinh",
+    "caption": "Tottenham Hotspurs",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-1.jpg"
+},{
+    "id": "likebtn2",
+    "name": "Lê Quang Vinh",
+    "caption": "Insider",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-2.jpeg"
+},{
+    "id": "likebtn3",
+    "name": "Lê Quang Vinh",
+    "caption": "Natural",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-3.jpg"
+},{
+    "id": "likebtn4",
+    "name": "Lê Quang Vinh",
+    "caption": "Demon Slayer",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-4.jpg"
+},{
+    "id": "likebtn5",
+    "name": "Lê Quang Vinh",
+    "caption": "Insider",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-2.jpeg"
+},{
+    "id": "likebtn6",
+    "name": "Lê Quang Vinh",
+    "caption": "Tottenham Hotspurs",
+    "image": "img/photo2.jpg",
+    "mainPost": "img/anhnewfeed-1.jpg"
+}]

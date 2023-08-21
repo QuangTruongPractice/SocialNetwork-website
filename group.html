@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group | Koot</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/chung.css">
+    <link rel="stylesheet" href="style/leftside.css">
+    <link rel="stylesheet" href="style/user.css">
+    <link rel="stylesheet" href="style/group.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="js/group.js"></script>
+    <script src="js/header.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class=" left-header">
+            <img class="logo-fb" src="img/logo.png" alt="logo facebook">
+            <div class="bar">
+                <img class="search-icon" src="img/search.svg" alt="search-icon">
+                <input class="find-bar" type="text" placeholder="Tìm kiếm trên Koot">
+            </div>
+            <div class="center-link2" onclick="toggleTaikhoan('hamburger-show')">
+                <img class="icon" src="img/hamburger-menu.svg" alt="home-icon">
+                <div class="tooltip">Xem thêm</div>
+            </div>
+        </div>
+        <div class="center-header">
+            <div class="center-link" id="Trangchu">
+                <a href="fb.html" class="center-link">
+                    <i class="fa-solid fa-house" style="color: black;
+                        font-size: 20px;"></i>
+                </a>
+                <div class="tooltip">Trang chủ</div>
+            </div>
+            
+            <div class="center-link">
+                <a href="user.html" class="center-link">
+                    <i class="fa-solid fa-user-group" style="color: black;
+                    font-size: 20px;"></i>
+                </a>
+                <div class="tooltip">Bạn bè</div>
+            </div>
+            
+            <div class="center-link" id="Watch">
+                <a href="watch.html" class="center-link">
+                    <i class="fa-brands fa-youtube" style="color: black;
+                    font-size: 20px;"></i>
+                </a>
+                <div class="tooltip">Watch</div>
+            </div>
+
+            <div class="center-link" id="nhom">
+                <a href="group.html" class="center-link">
+                    <i class="fa-solid fa-people-group" style="color: green;
+                    font-size: 20px;"></i>
+                </a>
+                <div class="tooltip">Nhóm</div>
+            </div>
+      
+        </div>
+        <div class="right-header"> 
+            <div class="right-link">
+                <div class="box1">
+                    <img class="icon1" src="img/plus-icon.png" alt="plus-icon">
+                    <div class="tooltip">Menu</div>
+                </div>
+            </div>
+            <div class="right-link">
+                <div class="box1" onclick="toggleTaikhoan('tinnhan')">
+                    <img class="icon1" src="img/mesenget-icon.png" alt="plus-icon">
+                    <div class="tooltip">Messenger</div>
+                </div>
+                <div class="tinnhan" id="tinnhan">
+                    <h6>Bạn chưa có tin nhắn nào</h6>
+                </div>
+            </div>
+            <div class="right-link">
+                <div class="box1" onclick="toggleTaikhoan('thongbao')">
+                    <img class="icon1" src="img/bell-icon.png" alt="plus-icon">
+                    <div class="tooltip">Thông báo</div>
+                </div>
+                <div class="thongbao" id="thongbao">
+                    <h6>Chưa có thông báo</h6>
+                </div>
+            </div>
+            <div class="right-link">
+                <div class="box1" onclick="toggleTaikhoan('taikhoan')">
+                    <img class="photo" src="img/photo2.jpg" alt="plus-icon">
+                    <div class="tooltip">Tài khoản</div>
+                </div>
+                <div class="taikhoan" id="taikhoan">
+                    <div class="thongtin">
+                        <img class="photo" src="img/photo2.jpg" alt="plus-icon">
+                        <h3 class="ten">Lê Quang Vinh</h3>
+                    </div>
+                    <div class="caidat">
+                        <img src="img/setting-icon.jpg" alt="setting"/>
+                        <h4>Cài đặt</h4>
+                    </div>
+                    <div class="trogiup">
+                        <img src="img/help-icon.png" alt="help"/>
+                        <h4>Trợ giúp</h4>
+                    </div>
+                    <a href="DangNhap/DangNhap/dangnhap.html" class="dangxuat">
+                    <div class="dangxuat">
+                        <img src="img/logout-icon.png" alt="log-out"/>
+                        <h4>Đăng xuất</h4>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="left-side">
+        <div class="left-link">
+            <a href="personal.html" class="left-link">
+                <img src="img/photo2.jpg" alt="plus-icon">
+                <p>Lê Quang Vinh</p>
+            </a>
+        </div>
+        <div class="left-link">
+            <img src="img/find.png" alt="plus-icon">
+            <p>Tìm bạn bè</p>
+        </div>
+        <div class="left-link">
+            <img src="img/group.png" alt="plus-icon">
+            <p>Nhóm</p>
+        </div>
+        <div class="left-link">
+            <img src="img/near.png" alt="plus-icon">
+            <p>Gần đây nhất</p>
+        </div>
+        <div class="left-link">
+            <img src="img/marketplace.png" alt="plus-icon">
+            <p>Marketplace</p>
+        </div>
+        <div class="left-link">
+            <img src="img/watch.png" alt="plus-icon">
+            <p>Watch</p>
+        </div>
+        <div class="left-link">
+            <img src="img/memory.png" alt="plus-icon">
+            <p>Kỷ niệm</p>
+        </div>
+        <div class="left-link">
+            <img src="img/save.png" alt="plus-icon">
+            <p>Đã lưu</p>
+        </div>
+        <div class="left-link">
+            <img src="img/page.png" alt="plus-icon">
+            <p>Trang</p>
+        </div>
+        <div class="left-link">
+            <img src="img/event.png" alt="plus-icon">
+            <p>Sự kiện</p>
+        </div>
+        <div class="left-link">
+            <img src="img/love.png" alt="plus-icon">
+            <p>Yêu thích</p>
+        </div>
+        <div class="left-link">
+            <img src="img/more.png" alt="plus-icon">
+            <p>Xem thêm</p>
+        </div>
+
+    </div>
+    <div class="wrapper" id="wrapper">
+       <div class="groups">
+            <div class="group">
+                <img class="profile" src="/img/Daihocmo.jpg" alt="A photo">
+            </div>
+            <div class="mobile-screen">
+                <div class="name-group">
+                    <p>Sinh Viên Đại Học Mở TP.HCM</p>
+                </div>
+                
+                <div class="view-group">
+                    <button class="view">View Group</button>
+                </div>
+            </div>
+       </div>
+       
+    </div>
+    <div class="hamburger-show" id="hamburger-show">
+        <a class="trangchu_show icon_show" href="fb.html">
+            <img src="img/home-icon.png" alt="home-icon">
+            <span>Trang Chủ</span>
+        </a>
+        <a class="banbe_show icon_show" href="user.html">
+            <img class="icon-1" src="img/friend-icon.png" alt="home-icon">
+            <span>Bạn Bè</span>
+        </a>
+        <a class="watch_show icon_show" href="watch.html">
+            <img class="icon" src="img/originals.svg" alt="home-icon">
+            <span>Watch</span>
+        </a>
+        <a class="nhom_show icon_show" href="group.html">
+            <img src="img/group-icon.png" alt="group-icon">
+            <span>Nhóm</span>
+        </a>
+    </div>
+</body>
+</html>

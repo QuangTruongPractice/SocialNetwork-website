@@ -1,0 +1,272 @@
+.newsfeed{
+  position: relative;
+  top: 65px;
+  left: 25%;
+  width: 48%;
+  right: 25%;
+}
+
+.dangbai{
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  background-color: white;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.anh{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 40px;
+}
+.dangbaiviet{
+  position: absolute;
+  background-color: rgb(194, 247, 194);
+  border-radius: 10px;
+  height: 30px;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(2, 108, 2);
+  right: 10%;
+  top: 12.5px;
+  cursor: pointer;
+  border: none;
+}
+
+.dangbaiviet:hover{
+  background-color: rgb(146, 247, 146);
+}
+.dangbaicuaso{
+  height: 400px;
+  border-radius: 10px;
+  display: none;
+  position: relative;
+  background-color: white;
+  top: -55px;
+  z-index: 999;
+}
+.dangbaicuaso .thongtin{
+  position: absolute;
+  height: 50px;
+  width: auto;
+  border-radius: 0;
+  left: 20px;
+}
+.dangbaicuaso .thongtin .anh{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin: 10px;
+  margin-left: 2px;
+}
+.link{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.dongcuaso{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+textarea{
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  right: 20px;
+  outline: none;
+  padding-bottom: 150px;
+  resize: none;
+  font-size: 20px;
+  border: none;
+}
+
+.tep{
+  position: absolute;
+  display: flex;
+  bottom: 70px;
+  justify-content: space-around;
+  
+  width: 100%;
+}
+.mucanh .anh{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.mucanh{
+  display: flex;
+  cursor: pointer;
+}
+
+.livestream{
+  display: flex;
+  cursor: pointer;
+}
+.livestream .anhlivestream{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+.hoidap{
+  display: flex;
+  cursor: pointer;
+}
+.hoidap .anhhoidap{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.nutdang{
+  position: absolute;
+  bottom: 20px;
+  left: 3%;
+  right: 3%;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+.nutdang:hover .dang{
+  background-color: rgb(98, 250, 98);
+}
+.nutdang .dang{
+  left: 3%;
+  right: 3%;
+  width: 94%;
+  height: 35px;
+  border: none;
+  color: green;
+  background-color: rgb(179, 250, 179);
+  cursor: pointer;
+}
+.mypost{
+  height: 640px ;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.noidung img{
+  height: 500px;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  border-radius: 1%;
+  margin-bottom: 10px;
+  
+}
+.noidung p{
+  margin: 0 3%;
+}
+.tuongtac{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: absolute;
+  left: 60px;
+}
+.tuongtacicon{
+  height: 25px;
+  width: 25px;
+}
+.like, .comments, .share{
+  cursor: pointer;
+}
+#Trangchu{
+  background-color: lightgreen;
+  border-bottom: 3px solid green;
+}
+
+@media (max-width:1600px){
+    .newsfeed{
+      position: relative;
+      top: 65px;
+      left: 30%;
+      width: 55%;
+      right: 10%;
+  }
+}
+
+@media(max-width:1280px){
+  .noidung img{
+
+    height: 450px;
+    margin-top: 8px;
+  }
+  .mypost{
+  height: 600px ;
+}
+} 
+
+@media (max-width: 1024px){
+    .newsfeed{
+      position: relative;
+      top: 65px;
+      left: 5%;
+      width: 90%;
+      right: 10%;
+  }
+  .mypost{
+    height: 640px ;
+  }
+  .noidung img{
+    height: 500px;
+  }
+}
+@media (max-width: 700px){
+  .newsfeed{
+    left: 2.5%;
+    right: 2.5%;
+    width: 95%;
+    top: 125px;
+}
+  .noidung img{
+    height: 200px;
+    margin-top: 8px;
+  }
+  .mypost{
+  height: 350px ;
+}
+.tuongtac{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.tuongtacicon{
+  width: 18px;
+  height: 18px;
+}
+.tooltip{
+  z-index: 200;
+}
+}
+@media(min-height:1300px) and (max-height: 1368px){
+  .mypost{
+    height: 560px ;
+  }
+  .noidung img{
+    height: 420px;
+  }
+}
+
+@media(min-height:700px) and (max-height: 720px){
+  .noidung img{
+
+    height: 280px;
+  }
+  .mypost{
+    height: 430px ;
+  }
+}
