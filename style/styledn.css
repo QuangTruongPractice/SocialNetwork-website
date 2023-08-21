@@ -115,27 +115,27 @@ body, html{
     @keyframes change{
       0%
       {
-          background-image: url(/SocialNetwork-website/img/image1.jpg);
+          background-image: url(SocialNetwork-website/img/image1.jpg);
       }
       20%
       {
-          background-image: url(/SocialNetwork-website/img/image2.jpg);
+          background-image: url(SocialNetwork-website/img/image2.jpg);
       }
       40%
       {
-          background-image: url(/SocialNetwork-website/img/image3.jpg);
+          background-image: url(SocialNetwork-website/img/image3.jpg);
       }
       60%
       {
-          background-image: url(/SocialNetwork-website/img/image4.jpg);
+          background-image: url(SocialNetwork-website/img/image4.jpg);
       }
       80%
       {
-          background-image: url(/SocialNetwork-website/img/image.jpg);
+          background-image: url(SocialNetwork-website/img/image.jpg);
       }
       100%
       {
-          background-image: url(/SocialNetwork-website/img/image1.jpg);
+          background-image: url(SocialNetwork-website/img/image1.jpg);
       }
   }
   @media (max-width: 600px){
